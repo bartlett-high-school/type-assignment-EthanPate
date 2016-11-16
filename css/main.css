@@ -1,7 +1,26 @@
 /* Hint! the @font-face rule needs to be the first thing in your CSS file!*/
 
 
-/* Start the CSS*/
+@font-face {
+    font-family: 'allerregular';
+    src: url('../font/aller_rg-webfont.woff2') format('woff2'),
+         url('../font/aller_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'communistregular';
+    src: url('../font/communis-webfont.woff2') format('woff2'),
+         url('../font/communis-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -22,29 +41,29 @@ body {
 }
 
 h1 {
-
+ font-family: 'communistregular', serif;
 }
 
 h2 {
-
+ font-family: 'communistregular', serif;
 }
 
 h3 {
-
+ font-family: 'communistregular', serif;
 }
 
 h4 {
-
+ font-family: 'communistregular', serif;
 }
 
 h5 {
-
+ font-family: 'communistregular', serif;
 }
 
 h6 {
-
+ font-family: 'communistregular', serif;
 }
 
 p {
-
+ font-family: 'allerregular', sans-serif;
 }
